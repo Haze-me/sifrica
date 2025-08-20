@@ -10,7 +10,7 @@ on:
 env:
   IMAGE_NAME: ${{ secrets.DOCKERHUB_USERNAME }}/fastapi-auth
   DB_URL: ${{ secrets.DATABASE_URL }}
-  SECRET_KEY: ${{ secrets.DJANGO_SECRET_KEY }}
+  SECRET_KEY: ${{ secrets.SECRET_KEY }}
   
 
 jobs:
