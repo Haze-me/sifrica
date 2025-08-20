@@ -13,7 +13,7 @@ RUN apt-get update && apt-get install -y \
     libpq-dev \
     && rm -rf /var/lib/apt/lists/*
 
-# Create virtual environment
+# Create virtual environment for it
 RUN python -m venv /opt/venv
 ENV PATH="/opt/venv/bin:$PATH"
 
