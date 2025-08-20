@@ -39,6 +39,3 @@ engine = create_engine(
     pool_recycle=3600          # Recycle connections every hour
 )
 
-# SessionLocal = scoped_session(
-#     sessionmaker(bind=engine, autocommit=False, autoflush=False)
-# )

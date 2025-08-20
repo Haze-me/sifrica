@@ -3,3 +3,19 @@
 .env/
 *.env
 .pytest_cache
+
+# Docker
+docker-compose.override.yml
+.dockerignore
+
+# Environment files
+.env.local
+.env.production
+.env.staging
+
+# CI/CD
+.github/
+
+# IDE
+.vscode/
+.idea/
